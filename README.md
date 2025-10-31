@@ -33,7 +33,7 @@ This project aims to examine the relationship between air pollution levels and l
 
 ## Data Collection
 
-###Cancer Data (CDC):
+### Cancer Data (CDC):
 
 - Collect lung cancer rates by state and year from the CDC website.
 - Make a simple table showing each state’s cancer rate over time and look for patterns or trends, like which states have higher rates.
