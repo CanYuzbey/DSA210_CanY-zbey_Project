@@ -16,7 +16,7 @@ This project aims to examine the relationship between air pollution levels and l
 
 ## Resources
 
-###Datasets:
+### Datasets:
 
 - EPA Air Quality System (AQS): Annual state-level pollutant data (PM2.5, PM10, NO₂, O₃).
 🔗 https://www.epa.gov/aqs
