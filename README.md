@@ -25,7 +25,7 @@ This project aims to examine the relationship between air pollution levels and l
 - U.S. Census Bureau: Population estimates for normalization.
  🔗 https://www.census.gov/data/datasets/time-series/demo/popest.html
 
-###Tools and Software:
+### Tools and Software:
 
 - Python (Pandas, NumPy, Matplotlib, Seaborn) for data cleaning and visualization.
 - Jupyter Notebook for analysis and documentation.
@@ -38,18 +38,18 @@ This project aims to examine the relationship between air pollution levels and l
 - Collect lung cancer rates by state and year from the CDC website.
 - Make a simple table showing each state’s cancer rate over time and look for patterns or trends, like which states have higher rates.
 
-###Pollution Data (EPA):
+### Pollution Data (EPA):
 
 - Gather air pollution data (PM2.5, PM10, NO₂, and O₃) from the EPA website.
 - Look at basic graphs or maps to see how pollution changes from place to place or year to year.
 
-###Combining and Analyzing:
+### Combining and Analyzing:
 
 - Combine both datasets by matching the same state and year.
 - Compare the numbers to see if places with higher pollution also have higher cancer rates.
 - Use simple charts or correlation results to show how strong the relationship is and which pollutants seem most related to lung cancer.
 
-##Expected Outcomes
+## Expected Outcomes
 
 This project is expected to reveal a positive correlation between air pollution levels and lung cancer incidence across U.S. states. Pollutants such as PM2.5 and NO₂ are anticipated to show stronger relationships with higher cancer rates, especially in more industrial or urban regions. The results will be presented through visualizations like charts and maps to highlight geographical patterns. Overall, the findings aim to raise awareness about the health impacts of poor air quality and demonstrate how open data can be used to support public health and environmental policy decisions.
 
