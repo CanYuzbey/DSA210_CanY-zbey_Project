@@ -1,0 +1,44 @@
+"Historical Trends (2002-2021)"
+
+"Incidence, Florida, Lung & Bronchus, All Races (incl Hisp), All Ages, Both Sexes"
+
+Section 1 - Line Segments:
+Period,Annual Percent Change (1),Lower 95% Confidence Interval,Upper 95% Confidence Interval,Recent Trend
+2002-2018,-1.8,-2.0,1.2,stable
+2018-2021,-3.5,-5.5,-1.9,falling
+
+Section 2 - Yearly Points:
+Year,Observed,Estimated
+2002,75.1,76.2
+2003,74.1,74.8
+2004,74.1,73.5
+2005,72.8,72.1
+2006,70.8,70.8
+2007,69.2,69.6
+2008,69.3,68.3
+2009,68.0,67.1
+2010,66.4,65.9
+2011,63.9,64.7
+2012,64.2,63.5
+2013,61.9,62.4
+2014,60.9,61.2
+2015,59.0,60.1
+2016,58.7,59.0
+2017,57.7,58.0
+2018,57.2,56.9
+2019,55.8,54.9
+2020,50.6,N/A
+2021,50.8,51.1
+
+Notes:
+Created by statecancerprofiles.cancer.gov on 11/30/2025 2:41 pm.
+Regression lines calculated using the Joinpoint Regression Program (Version 5.3.0) [https://surveillance.cancer.gov/joinpoint/].
+The 2020 incidence rate is displayed but not used in the fit of the trend line(s). Impact of COVID on SEER Cancer Incidence 2020 data (https://seer.cancer.gov/data/covid-impact.html).
+"(1) The APC is the Annual Percent Change over the time interval.  Rates used in the calculation of the APC are age-adjusted to the 2000 U.S. standard population (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+)."
+
+"Source: Incidence data provided by the SEER Program  ( https://seer.cancer.gov )  and the  National Program of Cancer Registries ( https://www.cdc.gov/cancer/npcr/index.htm ) SEER*Stat Database United States Department of Health and Human Services, Centers for Disease Control and Prevention. Rates calculated by the National Cancer Institute using SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Rates are age-adjusted to the 2000 US standard population ( https://seer.cancer.gov/stdpopulations/single_age.html ) (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Population counts for denominators are based on Census populations as modified by NCI. The US populations included with the data release have been adjusted for the population shifts due to hurricanes Katrina and Rita ( https://seer.cancer.gov/data/hurricane.html ) for 62 counties and parishes in Alabama, Mississippi, Louisiana, and Texas. The US Population Data ( https://seer.cancer.gov/popdata/ ) File is used with SEER data. Rates and trends in this graph are computed using the same standard for malignancy. For more information see malignant.html ( /malignant.html ) "
+
+"Source: Death data provided by the National Vital Statistics System ( https://www.cdc.gov/nchs/nvss.htm ) public use data file. Death rates calculated by the National Cancer Institute using SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Death rates (deaths per 100,000 population per year) are age-adjusted to the 2000 US standard population ( https://seer.cancer.gov/stdpopulations/stdpop.19ages.html ) (19 age groups: (<1, 1-4, 5-9, ... , 80-84, 85+). Population counts for denominators are based on Census populations as modified by NCI. The US populations included with the data release have been adjusted for the population shifts due to hurricanes Katrina and Rita ( https://seer.cancer.gov/data/hurricane.html ) for 62 counties and parishes in Alabama, Mississippi, Louisiana, and Texas. US Population Data ( https://seer.cancer.gov/popdata/ ) File is used with mortality data. "
+
+"Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ ( differences.html ) for selected racial groups or counties. "
+
