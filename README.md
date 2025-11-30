@@ -24,6 +24,8 @@ This project aims to examine the relationship between air pollution levels and l
 🔗 https://www.cdc.gov/cancer/uscs/
 - U.S. Census Bureau: Population estimates for normalization.
  🔗 https://www.census.gov/data/datasets/time-series/demo/popest.html
+- Kaggle: Annual state-level pollutant data.
+🔗 https://www.kaggle.com/datasets/calebreigada/us-air-quality-1980present
 
 ### Tools and Software:
 
