@@ -32,6 +32,7 @@ This project aims to examine the relationship between air pollution levels and l
 - Python (Pandas, NumPy, Matplotlib, Seaborn) for data cleaning and visualization.
 - Jupyter Notebook for analysis and documentation.
 - Excel / Google Sheets for initial data inspection and merging.
+- LLM's (Gemini, ChatGPT) for directing and constructing the project.
 
 ## Data Collection
 
