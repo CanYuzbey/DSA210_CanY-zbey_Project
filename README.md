@@ -140,8 +140,26 @@ Additionally, the limited number of states and years reduces generalizability.
 
 ## How to Run the Analysis
 
-1. Install dependencies:
+This analysis was developed and executed using **Google Colab**, but it can also be run locally.
+
+### Option 1: Run in Google Colab (Recommended)
+
+1. Upload the repository files to a Google Colab session.
+2. Upload the CSV data files (`Air.*.csv` and `Cancer.*.csv`) into the Colab working directory.
+3. Open and run the analysis notebook (`analysis.ipynb`) from top to bottom.
+4. The script will automatically:
+   - Clean and preprocess the data
+   - Generate exploratory data analysis (EDA) plots
+   - Perform correlation analysis with p-values
+   - Save all figures into the `figures/` folder
+
+### Option 2: Run Locally
+
+1. Clone the repository:
 ```bash
+git clone <repository-url>
+cd <repository-folder>
+
 pip install pandas numpy matplotlib seaborn scipy
 
 
