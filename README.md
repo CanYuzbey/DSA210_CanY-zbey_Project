@@ -160,8 +160,6 @@ This analysis was developed and executed using **Google Colab**, but it can also
 git clone <repository-url>
 cd <repository-folder>
 
-pip install pandas numpy matplotlib seaborn scipy
-python analysis.py
 
 
 
