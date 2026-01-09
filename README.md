@@ -146,8 +146,9 @@ This analysis was developed and executed using **Google Colab**, but it can also
 
 1. Upload the repository files to a Google Colab session.
 2. Upload the CSV data files (`Air.*.csv` and `Cancer.*.csv`) into the Colab working directory.
-3. Open and run the analysis notebook (`analysis.ipynb`) from top to bottom.
-4. The script will automatically:
+3. CSV data files are stored under the `data/air/` and `data/cancer/` directories.
+4. Open and run the analysis notebook (`analysis.ipynb`) from top to bottom.
+5. The script will automatically:
    - Clean and preprocess the data
    - Generate exploratory data analysis (EDA) plots
    - Perform correlation analysis with p-values
