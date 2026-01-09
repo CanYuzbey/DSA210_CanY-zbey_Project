@@ -138,6 +138,17 @@ Additionally, the limited number of states and years reduces generalizability.
 
 ---
 
+## Machine Learning
+
+A simple Linear Regression model was trained to predict `Cancer_Rate` using `Avg_AQI` and `State` (one-hot encoded).  
+Outputs:
+- `figures/ml_pred_vs_actual.png`
+- `figures/ml_metrics.csv`
+
+![Predicted vs Actual (ML)](figures/ml_pred_vs_actual.png)
+
+---
+
 ## AI Assistance Disclosure
 
 I used ChatGPT to help improve the README structure and to draft example Python code for EDA plots and correlation testing.
