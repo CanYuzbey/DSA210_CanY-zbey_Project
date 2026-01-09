@@ -138,6 +138,18 @@ Additionally, the limited number of states and years reduces generalizability.
 
 ---
 
+## AI Assistance Disclosure
+
+I used ChatGPT to help improve the README structure and to draft example Python code for EDA plots and correlation testing.
+Example prompts used:
+- "Write a professional README for this project with EDA, hypothesis testing, and p-values."
+- "Generate Python code to produce EDA plots (histograms, boxplots, time trends) and compute Pearson correlation with p-value."
+
+All analysis decisions, dataset selection, interpretation, and final integration were done by me.
+
+
+---
+
 ## How to Run the Analysis
 
 This analysis was developed and executed using **Google Colab**, but it can also be run locally.
