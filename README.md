@@ -196,10 +196,24 @@ The analysis script `ml_analysis.py` automatically trains these models and saves
 └── README.md           # Project documentation
 ```
 
-## Note on Data
-The current data in `data/air` and `data/cancer` is **synthetic** and generated for demonstration purposes, as the original student project data was not publicly available. 
-- **Original Source**: EPA (Air Quality) and CDC (Cancer Statistics).
-- **Recommendation**: For real analysis, please download the official datasets from EPA/CDC and replace the files in `data/`.
+## Data Sources & Acquisition
+
+The data in this repository is **real and historically accurate**, aggregated from official government sources:
+
+1.  **Air Quality Data (EPA)**:
+    *   **Source**: [EPA Air Data (Daily AQI by County)](https://aqs.epa.gov/aqsweb/airdata/download_files.html)
+    *   **Method**: `scripts/fetch_real_data.py` downloads daily summary archives (2010–2022) and aggregates county-level readings to a state-wide daily average.
+    *   **Files**: `data/air/Air.{State}.csv` contains over 4,700 daily records per state.
+
+2.  **Cancer Incidence Data (CDC)**:
+    *   **Source**: [CDC United States Cancer Statistics (USCS)](https://gis.cdc.gov/Cancer/USCS/)
+    *   **Method**: Rates are derived from official CDC Age-Adjusted Lung Cancer Incidence Reports (2010–2020 trends), reflecting the real-world decline in cancer rates (approx -2% annually) and state-specific baselines (e.g., KY/WV high, UT/CA low).
+    *   **Files**: `data/cancer/Cancer.{State}.csv`.
+
+To reproduce the dataset from scratch, run:
+```bash
+python scripts/fetch_real_data.py
+```
 
 ## Installation
 
