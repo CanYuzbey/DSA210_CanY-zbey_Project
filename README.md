@@ -138,14 +138,22 @@ Additionally, the limited number of states and years reduces generalizability.
 
 ---
 
-## Machine Learning
+## Machine Learning Analysis
 
-A simple Linear Regression model was trained to predict `Cancer_Rate` using `Avg_AQI` and `State` (one-hot encoded).  
-Outputs:
-- `figures/ml_pred_vs_actual.png`
-- `figures/ml_metrics.csv`
+The project implements a robust **Multi-Model Machine Learning Pipeline** to predict lung cancer rates based on air quality and location.
 
-![Predicted vs Actual (ML)](figures/ml_pred_vs_actual.png)
+### Models Comparison
+We evaluated the following models using **5-Fold Cross-Validation** to ensure reliability:
+1.  **Linear Regression**: Baseline model assuming linear relationships.
+2.  **Random Forest Regressor**: Ensemble method capturing non-linear patterns.
+3.  **Gradient Boosting Regressor**: Boosting method for predictive accuracy.
+
+### Key Outputs
+- **Model Comparison**: `figures/ml_model_comparison.png` visualizes the R2 scores across models.
+- **Feature Importance**: `figures/ml_feature_importance.png` shows which variables (AQI vs State) drive predictions (Random Forest).
+- **Residual Analysis**: `figures/ml_residuals.png` checks for systematic errors.
+
+The analysis script `ml_analysis.py` automatically trains these models and saves metrics to `figures/ml_metrics.csv`.
 
 ---
 
