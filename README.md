@@ -124,6 +124,30 @@ The pooled dataset shows a statistically significant negative linear association
 
 ---
 
+## State Selection Rationale
+
+These four states were specifically selected to represent distinct environmental, industrial, and demographic profiles, allowing for a multifaceted analysis of air pollution and health outcomes:
+
+*   **California (The "Valley & Fire" Profile)**:
+    *   **Environment**: Unique topography (e.g., Central Valley) that traps pollutants and a warm climate conducive to ozone formation. Frequent **wildfires** contribute significant seasonal particulate matter spikes.
+    *   **Pollution Sources**: Heavy focus on mobile sources (freight, ports) and agriculture.
+
+*   **Florida (The "Coastal & Demographic" Profile)**:
+    *   **Environment**: Peninsular geography allows for better pollution dispersion generally, but specific local sources exist.
+    *   **Demographics**: A significantly **older population** (retirement hub) provides a critical contrast, as age is a primary risk factor for lung cancer, potentially confounding pollution signals.
+    *   **Pollution Sources**: Power generation, phosphate industry, and agricultural burning.
+
+*   **New York (The "Urban Density" Profile)**:
+    *   **Environment**: Represents extreme **urban density** (NYC) contrasted with rural upstate areas.
+    *   **Pollution Sources**: High concentration of traffic emissions, building heating systems (oil/gas), and financial/service industry dominance rather than heavy manufacturing.
+
+*   **Washington (The "Wood Smoke & Tech" Profile)**:
+    *   **Environment**: Pacific Northwest climate with distinct seasonal pollution patterns.
+    *   **Pollution Sources**: Significant contribution from **residential wood heating** and seasonal wildfires, differing from the traffic-heavy pollution of NY or CA.
+    *   **Industry**: Tech and aerospace hubs offering a different socioeconomic backdrop compared to agricultural or financial centers.
+
+---
+
 ## Limitations
 
 This study is based on aggregated state-level data and therefore represents an **ecological analysis**. The findings do not imply causation and do not account for important confounding factors such as:
