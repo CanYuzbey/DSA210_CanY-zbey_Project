@@ -24,13 +24,13 @@ Significance level: **α = 0.05**
 
 - **Air Quality Data:**  
   Environmental Protection Agency (EPA) – Air Quality System (AQS)  
-  https://www.epa.gov/aqs
+  [https://www.epa.gov/aqs](https://www.epa.gov/aqs)
 
 - **Cancer Incidence Data:**  
   Centers for Disease Control and Prevention (CDC) – U.S. Cancer Statistics  
-  https://www.cdc.gov/cancer/uscs/
+  [https://www.cdc.gov/cancer/uscs/](https://www.cdc.gov/cancer/uscs/)
 
-The analysis uses state-level annual summaries derived from these sources.
+*Note: The dataset currently included in this repository (`data/`) is a **synthetic proxy** generated to demonstrate the pipeline's functionality, as the original study data was not redistributable. For scientific reproduction, please download the official state-level annual summaries from the sources above.*
 
 ---
 
@@ -149,40 +149,57 @@ Outputs:
 
 ---
 
-## AI Assistance Disclosure
+## Project Structure
 
-I used ChatGPT to help improve the README structure and to draft example Python code for EDA plots and correlation testing.
-Example prompts used:
-- "Write a professional README for this project with EDA, hypothesis testing, and p-values."
-- "Generate Python code to produce EDA plots (histograms, boxplots, time trends) and compute Pearson correlation with p-value."
+```
+├── data/               # Data files (contains synthetic data for demo)
+├── figures/            # Generated plots and metrics
+├── src/                # Source code modules
+│   ├── loader.py       # Data loading utilities
+│   └── preprocessing.py # Data cleaning and transformation
+├── tests/              # Unit tests
+├── ml_analysis.py      # Main analysis script
+├── analysis.ipynb      # Exploratory Jupyter Notebook
+├── requirements.txt    # Project dependencies
+└── README.md           # Project documentation
+```
 
-All analysis decisions, dataset selection, interpretation, and final integration were done by me.
+## Note on Data
+The current data in `data/air` and `data/cancer` is **synthetic** and generated for demonstration purposes, as the original student project data was not publicly available. 
+- **Original Source**: EPA (Air Quality) and CDC (Cancer Statistics).
+- **Recommendation**: For real analysis, please download the official datasets from EPA/CDC and replace the files in `data/`.
 
+## Installation
 
----
+1.  Clone the repository:
+    ```bash
+    git clone <repository-url>
+    cd US-Air-Pollution-Lung-Cancer-Correlation
+    ```
 
-## How to Run the Analysis
+2.  Create a virtual environment:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
 
-This analysis was developed and executed using **Google Colab**, but it can also be run locally.
+3.  Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-### Option 1: Run in Google Colab (Recommended)
+## Usage
 
-1. Upload the repository files to a Google Colab session.
-2. Upload the CSV data files (`Air.*.csv` and `Cancer.*.csv`) into the Colab working directory.
-3. CSV data files are stored under the `data/air/` and `data/cancer/` directories.
-4. Open and run the analysis notebook (`analysis.ipynb`) from top to bottom.
-5. The script will automatically:
-   - Clean and preprocess the data
-   - Generate exploratory data analysis (EDA) plots
-   - Perform correlation analysis with p-values
-   - Save all figures into the `figures/` folder
-
-### Option 2: Run Locally
-
-1. Clone the repository:
+### Run the Analysis
+To execute the pipeline:
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+python ml_analysis.py
+```
+
+### Run Tests
+```bash
+python -m unittest discover tests
+```
 
 
 
